@@ -25,7 +25,6 @@ services:
       - DB_POSTGRESDB_USER=${POSTGRES_USER}
       - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
 
-      # --- Encryption for credentials ---
-      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
+      
 
       
